@@ -1,0 +1,164 @@
+{
+  "entertainment": [
+    {
+      "id": 0,
+      "category": "entertainment",
+      "title": "被举报“假慈善”的韩红，把林心如维护多年的体面，撕了个粉碎！",
+      "description": "韩红因其慈善事业受到质疑，深陷风波，林心如为其辩护，引发舆论热议。",
+      "urlToImage": "https://img0.baidu.com/it/u=157710901,2506186926&fm=253&fmt=auto&app=120&f=JPEG?w=797&h=500"
+    },
+    {
+      "id": 1,
+      "category": "entertainment",
+      "title": "娱乐圈新宠：小张如何逆袭成明星",
+      "description": "小张从默默无闻到备受瞩目的新星，背后故事让人感动，分享他的奋斗历程。",
+      "urlToImage": "https://img0.baidu.com/it/u=1153578048,1341024466&fm=253&fmt=auto?w=1539&h=800"
+    },
+    {
+      "id": 2,
+      "category": "entertainment",
+      "title": "老牌演员回归：王大爷的传奇故事",
+      "description": "王大爷在娱乐圈的辉煌与挑战，讲述他多年不变的热爱与坚持。",
+      "urlToImage": "https://img2.baidu.com/it/u=52553977,2561163503&fm=253&fmt=auto&app=138&f=JPEG?w=607&h=421"
+    }
+  ],
+  "sports": [
+    {
+      "id": 0,
+      "category": "sports",
+      "title": "中国队在世界杯预选赛中表现出色",
+      "description": "中国队在世界杯预选赛中以2-0战胜对手，展现出强大的实力和团队合作。",
+      "urlToImage": "https://img1.baidu.com/it/u=1267104332,2487954826&fm=253&fmt=auto&app=138&f=JPEG?w=719&h=500"
+    },
+    {
+      "id": 1,
+      "category": "sports",
+      "title": "篮球明星李易峰的职业生涯回顾",
+      "description": "回顾篮球明星李易峰的职业生涯，探讨他的成就与未来计划。",
+      "urlToImage": "https://img1.baidu.com/it/u=1229089711,3593045243&fm=253&fmt=auto&app=138&f=GIF?w=500&h=500"
+    },
+    {
+      "id": 2,
+      "category": "sports",
+      "title": "奥运会即将来临，运动员们的训练日常",
+      "description": "在奥运会即将来临之际，运动员们分享了他们的训练日常和备战状态。",
+      "urlToImage": "https://img2.baidu.com/it/u=346636197,3962239584&fm=253&fmt=auto&app=120&f=JPEG?w=767&h=500"
+    }
+  ],
+  "finance": [
+    {
+      "id": 0,
+      "category": "finance",
+      "title": "全球经济复苏的希望：IMF上调2024年增长预期",
+      "description": "国际货币基金组织（IMF）发布报告，预计2024年全球经济增长将达到4%，主要得益于各国的经济政策和疫苗接种进展。",
+      "urlToImage": "https://img0.baidu.com/it/u=685554790,2635304852&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"
+    },
+    {
+      "id": 1,
+      "category": "finance",
+      "title": "股市震荡：投资者对通胀担忧加剧",
+      "description": "近期股市波动加剧，投资者对通货膨胀的担忧导致大盘下跌，市场分析师呼吁保持谨慎。",
+      "urlToImage": "https://img1.baidu.com/it/u=1648345659,951765591&fm=253&fmt=auto?w=607&h=399"
+    },
+    {
+      "id": 2,
+      "category": "finance",
+      "title": "数字货币的未来：央行数字货币的兴起",
+      "description": "随着各国央行加快数字货币的研发，专家讨论了数字货币对传统金融系统的影响及其未来的发展方向。",
+      "urlToImage": "https://img2.baidu.com/it/u=1914616842,3695507828&fm=253&fmt=auto&app=120&f=JPEG?w=750&h=500"
+    }
+  ],
+  "technology": [
+    {
+      "id": 0,
+      "category": "technology",
+      "title": "AI 技术的飞速发展：2024 年的突破",
+      "description": "2024 年，AI 技术取得了飞速进展，从智能助手到自动驾驶，技术变革正深刻影响着各个行业。",
+      "urlToImage": "https://img1.baidu.com/it/u=3475385717,2910724046&fm=253&fmt=auto&app=120&f=JPEG?w=853&h=363"
+    },
+    {
+      "id": 1,
+      "category": "technology",
+      "title": "量子计算：改变未来计算的黑科技",
+      "description": "量子计算正在逐步从实验室走向现实，其超强计算能力有望改变未来的加密技术和复杂问题的解决方案。",
+      "urlToImage": "https://img2.baidu.com/it/u=3478875317,2562300439&fm=253&fmt=auto&app=120&f=JPEG?w=750&h=500"
+    },
+    {
+      "id": 2,
+      "category": "technology",
+      "title": "可再生能源技术的突破：太阳能电池效率再创新高",
+      "description": "最新的太阳能电池技术在实验中达到了 35% 的效率，这一进展有望使太阳能成为主要能源。",
+      "urlToImage": "https://img1.baidu.com/it/u=1876778100,4220676087&fm=253&fmt=auto&app=120&f=JPEG?w=379&h=238"
+    }
+  ],
+  "history": [
+    {
+      "id": 0,
+      "category": "history",
+      "title": "大明王朝的兴衰：从鼎盛到覆灭",
+      "description": "探讨大明王朝的辉煌历史及其衰亡的内在原因，为我们提供了深刻的历史教训。",
+      "urlToImage": "https://img2.baidu.com/it/u=3403093947,2520616740&fm=253&fmt=auto&app=120&f=JPEG?w=714&h=500"
+    },
+    {
+      "id": 1,
+      "category": "history",
+      "title": "第二次世界大战中的关键战役",
+      "description": "第二次世界大战中的几场关键战役，不仅决定了战争的走向，也深刻影响了世界的格局。",
+      "urlToImage": "https://img2.baidu.com/it/u=2201164104,815955152&fm=253&fmt=auto&app=120&f=JPEG?w=592&h=329"
+    },
+    {
+      "id": 2,
+      "category": "history",
+      "title": "中华文明的起源：从黄河到长江的文化传承",
+      "description": "黄河流域与长江流域孕育了中华文明的早期发展，这一过程为现代中国文化奠定了基础。",
+      "urlToImage": "https://img0.baidu.com/it/u=1803573922,314074964&fm=253&fmt=auto&app=120&f=JPEG?w=455&h=256"
+    }
+  ],
+  "international": [
+    {
+      "id": 0,
+      "category": "international",
+      "title": "联合国气候大会：各国承诺减排目标",
+      "description": "在联合国气候大会上，多个国家宣布了新一轮的减排承诺，以应对全球气候变暖的挑战。",
+      "urlToImage": "https://img2.baidu.com/it/u=3961369886,2009220033&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500"
+    },
+    {
+      "id": 1,
+      "category": "international",
+      "title": "中东局势升级：各国外交政策的影响",
+      "description": "中东地区局势持续升级，各国的外交政策正在深刻影响这一地区的稳定与未来发展。",
+      "urlToImage": "https://img2.baidu.com/it/u=418915154,1568313722&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667"
+    },
+    {
+      "id": 2,
+      "category": "international",
+      "title": "全球粮食危机：应对方法与未来展望",
+      "description": "全球范围内的粮食短缺问题日益严重，专家们探讨了应对粮食危机的紧急措施和长远计划。",
+      "urlToImage": "https://img2.baidu.com/it/u=17484597,657149540&fm=253&fmt=auto&app=120&f=JPEG?w=887&h=500"
+    }
+  ],
+  "military": [
+    {
+      "id": 0,
+      "category": "military",
+      "title": "军事科技的新突破：无人机的未来发展",
+      "description": "无人机技术在军事领域的应用越来越广泛，从侦察到打击，它正成为未来战争的重要力量。",
+      "urlToImage": "https://img2.baidu.com/it/u=235577316,2156899802&fm=253&fmt=auto&app=138&f=JPEG?w=664&h=443"
+    },
+    {
+      "id": 1,
+      "category": "military",
+      "title": "新型战舰下水：海军实力的提升",
+      "description": "最新型战舰在某国下水，这一举动意味着该国海军实力的提升，也引发了国际社会的关注。",
+      "urlToImage": "https://img2.baidu.com/it/u=1232399655,823399927&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=705"
+    },
+    {
+      "id": 2,
+      "category": "military",
+      "title": "军事联盟的崛起：新世界格局的形成",
+      "description": "多个国家宣布成立新的军事联盟，分析这一举措对全球安全形势的潜在影响。",
+      "urlToImage": "https://img0.baidu.com/it/u=3714202303,4159839855&fm=253&fmt=auto&app=120&f=JPEG?w=546&h=289"
+    }
+  ]
+}
+

@@ -1,0 +1,303 @@
+/* 左侧类别按钮布局 */
+.category-buttons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 20px; /* 增加顶部间距 */
+  left: 10px; /* 增加左侧间距 */
+  gap: 15px; /* 每个按钮之间的间距 */
+  z-index: 9999;
+}
+
+/* 统一按钮样式 */
+.category-buttons button,
+.dropdown button {
+  background-color: #007bff; /* 统一背景颜色 */
+  color: white; /* 统一文字颜色 */
+  border: none; /* 去掉边框 */
+  padding: 12px 20px; /* 统一内边距 */
+  cursor: pointer; /* 鼠标指针效果 */
+  border-radius: 5px; /* 统一圆角 */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* 添加过渡效果 */
+}
+
+/* 选中时按钮样式 */
+.category-buttons button.active {
+  background-color: blue; /* 选中时背景颜色 */
+}
+
+/* 下拉菜单样式 */
+.dropdown {
+  position: absolute; /* 绝对定位 */
+  top: 100%; /* 在按钮下方显示 */
+  left: 0;
+  background-color: white; /* 背景颜色 */
+  z-index: 1000; /* 确保下拉菜单在其他元素之上 */
+  width: 100%; /* 宽度与按钮一致 */
+  gap: 0; /* 按钮间距 */
+}
+
+/* 展开时显示下拉菜单 */
+.category-buttons .dropdown.active {
+  display: flex; /* 使用flex布局显示下拉菜单 */
+  flex-direction: column; /* 垂直排列 */
+}
+
+/* 下拉菜单按钮悬停效果 */
+.dropdown button:hover,
+.category-buttons button:hover {
+  background-color: #0056b3; /* 悬停时的背景色 */
+  transform: scale(1.05); /* 悬停时放大 */
+}
+
+/* 新闻容器 */
+.news-container {
+  display: flex;
+  flex-direction: column; /* 垂直排列每个新闻条目 */
+  gap: 20px; /* 每个新闻条目之间的间距 */
+  margin-left: 140px; /* 增加与左侧类别按钮的距离 */
+  margin-top: 20px;
+  width: calc(100% - 220px); /* 减去按钮宽度 */
+}
+
+/* 单个新闻条目 */
+.news-item {
+  background-color: rgba(255, 255, 255, 0.95); /* 提高背景不透明度 */
+  border-radius: 10px; /* 圆角效果 */
+  padding: 25px; /* 增加内边距 */
+  margin: 10px 0; /* 上下外边距 */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  display: flex; /* 使用flexbox布局 */
+  align-items: center; /* 垂直居中内容 */
+  transition: box-shadow 0.3s ease; /* 添加阴影过渡效果 */
+}
+
+.news-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* 悬停时阴影效果 */
+}
+
+/* 新闻内容部分 */
+.news-content {
+  flex: 1; /* 让内容部分占据剩余空间 */
+}
+
+/* 新闻图片 */
+.news-image {
+  width: 250px; /* 缩小图片宽度，以更好地适配不同屏幕 */
+  height: auto; /* 自动高度以保持比例 */
+  border-radius: 10px; /* 圆角 */
+  margin-left: 20px; /* 图片与内容之间的间距 */
+  transition: transform 0.3s ease; /* 添加缩放效果 */
+}
+
+.news-image:hover {
+  transform: scale(1.05); /* 悬停时放大图片 */
+}
+
+/* 分页按钮 */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px; /* 增加内边距 */
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* 添加缩放效果 */
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+  transform: scale(1.05); /* 悬停时放大 */
+}
+
+/* 视频容器样式 */
+.video-container {
+  position: relative; /* 设置相对定位，以便内部绝对定位的元素相对于该容器定位 */
+  width: 100%; /* 宽度设为100% */
+  margin-bottom: 30px; /* 增加底部间距 */
+  overflow: hidden; /* 隐藏溢出内容 */
+}
+
+.video-container video {
+  width: 100%; /* 视频宽度适应容器 */
+  height: auto; /* 高度自适应 */
+}
+
+/* 覆盖在视频上的内容样式 */
+.overlay {
+  position: absolute; /* 绝对定位 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 垂直排列 */
+  align-items: center; /* 水平居中 */
+  justify-content: center; /* 垂直居中 */
+  color: white; /* 字体颜色 */
+  font-size: 32px; /* 增大字体 */
+  background: rgba(0, 0, 0, 0.6); /* 更深的半透明背景 */
+  padding: 15px;
+  text-align: center;
+}
+
+/* 搜索框样式 */
+.overlay input[type="text"] {
+  width: 80%;
+  max-width: 600px; /* 增加最大宽度 */
+  padding: 12px;
+  border-radius: 5px; /* 圆角 */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 15px; /* 增加搜索框与标题之间的距离 */
+  transition: border 0.3s ease; /* 添加边框过渡效果 */
+}
+
+.overlay input[type="text"]:focus {
+  border-color: #007bff; /* 聚焦时边框颜色 */
+}
+
+/* 调整分页按钮布局 */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* 增加响应式设计 */
+@media (max-width: 768px) {
+  .category-buttons {
+    position: static; /* 在小屏幕上将按钮放置在正常流中 */
+    width: 100%;
+    flex-direction: row; /* 水平排列 */
+    overflow-x: auto; /* 允许横向滚动 */
+  }
+
+  .category-button {
+    flex: 1; /* 平分按钮宽度 */
+  }
+
+  .news-container {
+    margin-left: 0; /* 移除左侧边距 */
+    width: 100%; /* 使用100%宽度 */
+  }
+
+  .news-image {
+    width: 100%; /* 新闻图片宽度适应容器 */
+    max-width: 250px; /* 限制最大宽度 */
+    margin-left: 0; /* 移除左侧间距 */
+    align-self: flex-start; /* 上对齐 */
+  }
+}
+
+.headline-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  z-index: 1000;
+  font-size: 20px;
+}
+
+.headline-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.headline-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.headline-container li {
+  margin-bottom: 10px;
+}
+
+.headline-container a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.headline-container a:hover {
+  color: #0056b3;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto; /* 高度自动调整 */
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.swiper-slide h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.swiper-slide p {
+  font-size: 1em;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide img {
+    max-height: 200px;
+  }
+
+  .swiper-slide h3 {
+    font-size: 1.2em;
+  }
+
+  .swiper-slide p {
+    font-size: 0.9em;
+  }
+}
+
+/* 登录按钮固定在页面右下角 */
+.login-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
